@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="mouse-parallax">
+        <div class="mouse-parallax-bg">
+        </div>
+        <div class="logo"></div>
+    </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            position: fixed;
+            overflow: hidden;
+        }
+
+        .mouse-parallax {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .mouse-parallax-bg {
+            position: absolute;
+            background-color: #06131A;
+            background-image: url("image.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+            transition: all 0.1s ease;  
+        }
+    </style>
+</body>
+</html>
